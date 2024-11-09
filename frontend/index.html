@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proviz School of AI - Enroll in AI courses to transform your future.">
+    <title>Proviz School of AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header Section -->
+<header class="header">
+    <div class="header-container">
+        <h1 class="logo">Proviz School of AI</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#offer">Today’s Offer</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-btn">🔍</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+    <!-- Header Section -->
+    <header>
+        <h1>Proviz School of AI</h1>
+        <p>Your future in AI starts here.</p>
+        <button id="applyNowBtn">Apply Now</button>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>About Proviz School of AI</h2>
+        <p>At Proviz, we’re committed to shaping the future of education by offering cutting-edge courses in AI, Machine Learning, Data Science. Our on-campus bootcamps are designed to empower learners with in-demand skills and help them land their dream careers with expert guidance and placement assistance.</p>
+    </section>
+
+    <!-- Course Highlights Section -->
+    <section id="courses">
+        <h2>Our AI Programs</h2>
+        <div class="course">
+            <h3>Deep Learning</h3>
+            <p>Master neural networks and deep learning algorithms.</p>
+        </div>
+        <div class="course">
+            <h3>Data Science</h3>
+            <p>Learn data analytics, visualization, and machine learning.</p>
+        </div>
+        <div class="course">
+            <h3>Machine Learning</h3>
+            <p>Get hands-on experience in supervised and unsupervised learning.</p>
+        </div>
+    </section>
+
+    <!-- Application Form Modal -->
+<div id="applicationModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2>Application Form</h2>
+        <form id="applicationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="statement">Why do you want to join?</label>
+            <textarea id="statement" name="statement" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+    <!-- Testimonial Section -->
+<section class="testimonials">
+    <h2>Our Successful Alumni</h2>
+    <p>See what our past students have achieved in top companies worldwide.</p>
+    <div class="testimonial-container">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card">
+            <h3>John Doe</h3>
+            <p class="position">Data Scientist at Google</p>
+            <p class="testimonial-text">"Proviz School of AI helped me build a strong foundation in AI. Today, I'm living my dream at Google!"</p>
+        </div>
+        
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card">
+            <h3>Jane Smith</h3>
+            <p class="position">AI Engineer at Microsoft</p>
+            <p class="testimonial-text">"The hands-on projects and expert guidance gave me a clear path to success. Thank you, Proviz!"</p>
+        </div>
+        
+        <!-- Testimonial Card 3 -->
+        <div class="testimonial-card">
+            <h3>Michael Lee</h3>
+            <p class="position">Machine Learning Engineer at Amazon</p>
+            <p class="testimonial-text">"I am grateful for the knowledge and support I received. Joining Proviz was the best decision I made."</p>
+        </div>
+        
+        <!-- Testimonial Card 4 -->
+        <div class="testimonial-card">
+            <h3>Emily Davis</h3>
+            <p class="position">AI Researcher at IBM</p>
+            <p class="testimonial-text">"Proviz School of AI opened doors for me, leading to an exciting career in AI research at IBM."</p>
+        </div>
+    </div>
+</section>
+
+
+    <div>  
+    <section class="footer">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Info</h4>
+            <ul class="links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Students</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Collection</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul class="links">
+              <li><a href="#">Free Courses</a></li>
+              <li><a href="#">Latest Success</a></li>
+              <li><a href="#">Themes</a></li>
+              <li><a href="#">Popular Skills</a></li>
+              <li><a href="#">AI Skills</a></li>
+              <li><a href="#">New Uploads</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="links">
+              <li><a href="#">Customer Agreement</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">GDPR</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Start your journey today for your better future...
+            </p>
+            <form action="#">
+              <input type="text" placeholder="Your email" required>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
